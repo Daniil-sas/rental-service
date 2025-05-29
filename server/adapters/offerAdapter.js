@@ -69,6 +69,7 @@ const adaptFullOfferToClient = (offer) => {
     isPremium: offer.isPremium,
     rating: parseFloat(offer.rating),
     description: offer.description,
+    rooms: offer.rooms,
     bedrooms: offer.guests,
     goods: offer.features,
     host: offer.author,
